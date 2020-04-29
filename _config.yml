@@ -1,0 +1,32 @@
+author: traviskroberts
+title: Today I Learned - Travis Roberts
+email: traviskroberts@gmail.com
+description: A collection of interesting things I've learned
+show_excerpts: false # set to true to show excerpts on the homepage
+
+# Minima date format
+# refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
+minima:
+  date_format: "%b %-d, %Y"
+
+sass:
+  sass_dir: _sass
+
+permalink: /posts/:title/
+texture:
+  title: Today I Learned
+  tagline: A collection of interesting things I've learned
+  byline: Travis Roberts - Senior Software Engineer
+  style: blue
+  showNav: false
+  showPicker: false
+
+  # generate social links in footer
+  social_links:
+    twitter: travisroberts
+    github:  traviskroberts
+    linkedIn: in/travisroberts
+    rss: rss
+
+plugins:
+  - jekyll-seo-tag
