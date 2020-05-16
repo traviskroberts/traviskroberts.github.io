@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "ActiveRecord uniqueness validation on compound columns"
+title:  "ActiveRecord Uniqueness Validation on Compound Columns"
 date:   2020-04-28 00:00:00 -0500
 categories: activerecord rails
 ---
