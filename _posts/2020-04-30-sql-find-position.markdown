@@ -4,7 +4,7 @@ title:  "SQL - Find Position of Record in Results"
 date:   2020-04-30 00:00:00 -0500
 categories: sql
 ---
-Similar to my [previous post]({% post_url 2020-05-28-activerecord-compound-column-uniqueness %}), I have a `high_scores` table that tracks users' high scores for several games.
+Similar to my [previous post]({% post_url 2020-04-28-activerecord-compound-column-uniqueness %}), I have a `high_scores` table that tracks users' high scores for several games.
 I needed to return the current user's global rank for a specified game.
 
 Here's the table structure:
